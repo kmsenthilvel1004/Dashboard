@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from matplotlib import pyplot as plt
 
-st.title("Simple dta dashboard")
+st.title("Simple data dashboard")
 
 uploaded_file = st.file_uploader("Select file",type="csv")
 
